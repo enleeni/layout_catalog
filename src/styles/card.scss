@@ -149,15 +149,12 @@
 
 .catalog {
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(1, 200px);
   gap: 46px 48px;
   padding: 50px 40px 72px;
   align-items: center;
   align-content: center;
-
-  @media (min-width: 1200px) {
-    padding: 50px 128px 72px;
-  }
 
   @media (min-width: 488px) {
     grid-template-columns: repeat(2, 200px);
