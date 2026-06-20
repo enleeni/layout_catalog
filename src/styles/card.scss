@@ -26,7 +26,7 @@
     width: 160px;
   }
 
-  &__name {
+  &__title {
     margin-top: 40px;
     width: 166px;
     height: 36px;
@@ -41,8 +41,8 @@
   &:hover {
     transform: scale(1.2);
 
-    & .card__name {
-      color: $card-hover-name-color;
+    & .card__title {
+      color: $card-title-hover-color;
     }
   }
 
